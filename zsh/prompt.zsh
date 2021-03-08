@@ -1,8 +1,14 @@
 # Modify the prompt to contain git branch name if applicable
+
+function parse_git_dirty {
+  [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit, working tree clean" ]] && echo "%{$fg_bold[green]%}*%{$reset_color%}"
+}
+
+
 git_prompt_info() {
   current_branch=$(git current-branch 2> /dev/null)
   if [[ -n $current_branch ]]; then
-    echo " %{$fg_bold[green]%}$current_branch%{$reset_color%}"
+    echo " %{$fg_bold[green]%}$current_branch$(parse_git_dirty)%{$reset_color%}"
   fi
 }
 
