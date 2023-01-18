@@ -87,6 +87,9 @@ alias ghco="gh pr checkout"
 alias hconfig="heroku config --remote"
 alias hc="heroku run rails c --remote"
 alias hm="heroku run rake db:migrate --remote"
+alias vt-prod="heroku run rails console --app versatrial"
+alias vt-staging="heroku run rails console --app versatrial-staging"
+alias vt-tail-prod="heroku logs -t --app versatrial"
 
 # == Node ======================================================================
 
@@ -151,3 +154,7 @@ alias tn="tmux new-session -d -s"
 # == vim =======================================================================
 
 alias retag='ctags -R --exclude=.gitignore --exclude=.git --exclude=log --exclude=tmp --exclude=node_modules *'
+
+# == heroku ====================================================================
+
+alias heroku="TERM=xterm-256color heroku"
