@@ -5,7 +5,7 @@ set termguicolors
 
 highlight VertSplit ctermfg=236 ctermbg=236
 
-augroup shanson_theme
+augroup tparesi_theme
   autocmd!
 
   " Make Functions bold -- affects JS but not Ruby due to syntax limitations :(

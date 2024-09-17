@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Welcome to shanson's laptop script, modified from thoughtbot's laptop script!
+# Welcome to tparei's laptop script, modified from thoughtbot's laptop script!
 
 fancy_echo() {
   local fmt="$1"; shift

@@ -29,10 +29,10 @@ eval "$(nodenv init -)"
 eval "$(direnv hook zsh)"
 
 # bun completions
-[ -s "/Users/shanson/.bun/_bun" ] && source "/Users/shanson/.bun/_bun"
+[ -s "/Users/tparesi/.bun/_bun" ] && source "/Users/tparesi/.bun/_bun"
 
 # pnpm
-export PNPM_HOME="/Users/shanson/Library/pnpm"
+export PNPM_HOME="/Users/tparesi/Library/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;

@@ -1,4 +1,4 @@
-augroup shanson
+augroup tparesi
   autocmd!
 
   " When editing a file, always jump to the last known cursor position.

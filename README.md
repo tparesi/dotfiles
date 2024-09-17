@@ -1,4 +1,4 @@
-# shanson's dotfiles
+# tparesi's dotfiles
 
 These dotfiles set up Zsh, Vim, and tmux, and are also used to back up iTerm
 config and manage other program dotfiles, like `rbenv` and `git`. Some of this
