@@ -11,11 +11,9 @@ tap "neovim/neovim"
 
 # these apps go first so not blocking new machine setup
 cask "alfred"
-cask "1password"
 cask "dropbox"
 cask "google-chrome"
 cask "slack"
-cask "visual-studio-code"
 
 brew "bat" # cat command but with syntax highlighting
 brew "diff-so-fancy" # better diffs
@@ -62,7 +60,6 @@ cask "apptivate" # keyboard shortcuts to launch apps
 cask "audacity"
 cask "cron"
 cask "dash" # documentation
-cask "evernote" # not actively using anymore
 cask "figma"
 cask "flipper" # React Native debugger
 cask "gpg-suite"
@@ -82,5 +79,4 @@ cask "quicklook-json"
 cask "sourcetree" # git GUI client
 cask "spotify"
 # cask "transmit" # FTP client, license owned is for older v4, install manual
-cask "tuple" # pair programming
 cask "zoom"

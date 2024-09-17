@@ -45,7 +45,7 @@ We will import and enable two rules:
 
 ### Configure Apptivate
 
-Set up shortcuts for Chrome (cmd+space), Mail (“ctrl+a, M”), iTerm (“ctrl+a, T”), Slack (“ctrl+a, S”), Finder, 1Password, Spotify ("P"), VS Code, Notion, Messages ("E"), Notion Calendar, Zoom. All shortcuts are chorded starting with “ctrl+a” except Chrome
+Set up shortcuts for Chrome (cmd+space), Mail (“ctrl+a, M”), iTerm (“ctrl+a, T”), Slack (“ctrl+a, S”), Finder, Spotify ("P"), VS Code, Notion, Messages ("E"), Notion Calendar, Zoom. All shortcuts are chorded starting with “ctrl+a” except Chrome
 
 ### Configure Chrome
 
@@ -59,10 +59,6 @@ Purchased Alfred 5 upgrade 2022, license is in my gmail.
 * Install "[IP Address](https://alfred.app/workflows/alexchantastic/ip-address/)"
 * Install "[Calm Notifications](https://alfred.app/workflows/vitor/calm-notifications/)" (adds "do not disturb" time-boxed commands, eg. "dnd 30" for 30 minute focus)
 * Configure clipboard history with hotkey cmd+ctrl+c, set it to also keep images 
-
-### Configure 1Password
-
-Just sign in. I subscribe to the family plan.
 
 ### Configure VS Code
 
